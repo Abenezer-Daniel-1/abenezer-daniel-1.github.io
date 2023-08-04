@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="app.js" defer></script>
+    <title>Writable</title>
+</head>
+<body class="clr-primary-900-bg clr-primary-100-text ff-primary">
+    <button class="main-app-btn fs-xs">Change sizes</button>
+    <div class="module off">
+        <header class="clr-primary-900-bg">
+            <div class="flex-const space-between wrapper">
+                <img class="img-200" src="./assets/logo.svg" alt="writable logo">
+                <nav>
+                    <nav class="vs-none-s">
+                        <ul class="flex nav-spc">
+                            <li><a class="clr-accent-300-text fw-bold fs-xs-c td-underline" href="#">Home</a></li>
+                            <li><a class="clr-primary-100-text fs-xs-c" href="#">Email</a></li>
+                            <li><a class="clr-primary-100-text fs-xs-c" href="#">Upwork</a></li>
+                            <li><a class="clr-primary-100-text fs-xs-c" href="#">Patreon</a></li>
+                        </ul>
+                    </nav>
+                </nav>
+                <button class="border-none bg-none btn-visualy-hidden vs-none-l">
+                    <img class="img-100" src="./assets/menu.svg" alt="menu toggle">
+                </button>
+            </div>
+        </header>
+        <main class="clr-accent-300-bg clr-primary-900-text">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="inputContainer | fs-xsmall">
+                        <h1 data-fs="--fs-xs" contenteditable="true" class="input | clr-primary-500-bg clr-primary-900-text fs-l-c">14</h1>
+                        <p class="main-para fs-xs-c lh-900">Font size for smaller more used text all over the body.</p>
+                    </div>
+                    <div class="input | fs-small">
+                        <h1 data-fs="--fs-s" contenteditable="true" class="input | clr-primary-500-bg clr-primary-900-text fs-l-c">16</h1>
+                        <p class="main-para fs-xs-c lh-900">Font size for content higher on the visual hierarchy.</p>
+                    </div>
+                    <div class="input | fs-medium">
+                        <h1 data-fs="--fs-m" contenteditable="true" class="input | clr-primary-500-bg clr-primary-900-text fs-l-c">29</h1>
+                        <p class="main-para fs-xs-c lh-900">Font size for less used mid range text.</p>
+                    </div>
+                    <div class="input | fs-mediuml">
+                        <h1 data-fs="--fs-ml" contenteditable="true" class="input | clr-primary-500-bg clr-primary-900-text fs-l-c">48</h1>
+                        <p class="main-para fs-xs-c lh-900">Font size for second level headers(h2) such as for section titles.</p>
+                    </div>
+                    <div class="input | fs-large">
+                        <h1 data-fs="--fs-l" contenteditable="true" class="input | clr-primary-500-bg clr-primary-900-text fs-l-c">56</h1>
+                        <p class="main-para fs-xs-c lh-900">Font size for large text such as hero headlines.</p>
+                    </div>
+                    <div class="input | fs-xlarge"">
+                        <h1 data-fs="--fs-xl" contenteditable="true" class="input | clr-primary-500-bg clr-primary-900-text fs-l-c">128</h1>
+                        <P class="main-para fs-xs-c lh-900">Font size for accent text such as watermarks.</P>
+                    </div>
+                </div>
+                <div class="content | flex">
+                    <p class="module-disc | fs-xs-c lh-900"><span class="fs-ml-c tt-upper fw-bold">Important</span> this page is not an editable page. Every content here works in a static way. If you want to donate or connect on Upwork or email the nav links work here so feel free to use this page without worrying about changing text.</p>
+                    <div class="ctas | flex-const center-div-s ctas-spc">
+                        <button class="clr-primary-900-bg clr-primary-500-text fw-bold fs-s-c border-none br-500 btn">Patreon support</button>
+                        <button class="btn-secondary | clr-accent-300-bg clr-primary-900-text fw-bold fs-s-c br-500 btn">Upwork contact</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <header class="header-spc">
+        <div class="flex-const space-between wrapper">
+            <img class="img-200" src="./assets/logo.svg" alt="writable logo">
+            <nav class="vs-none-s">
+                <ul class="flex nav-spc">
+                    <li><a class="clr-accent-300-text fw-bold fs-xs td-underline" href="#" contenteditable="true">Home</a></li>
+                    <li><a class="clr-primary-100-text fs-xs" href="#" contenteditable="true">Email</a></li>
+                    <li><a class="clr-primary-100-text fs-xs" href="#" contenteditable="true">Upwork</a></li>
+                    <li><a class="clr-primary-100-text fs-xs" href="#" contenteditable="true">Patreon</a></li>
+                </ul>
+            </nav>
+            <button class="border-none bg-none btn-visualy-hidden vs-none-l">
+                <img class="img-100" src="./assets/menu.svg" alt="menu toggle">
+            </button>
+        </div>
+    </header>
+    <section class="hero | hero-spc">
+        <div class="flex flex-hero space-between wrapper hero-inner-spc">
+            <div class="content">
+                <h1 class="fs-l lh-500 tw-100 center-s-hero headline-spc" contenteditable="true">Write. Size. Adjust. Test. Deploy.</h1>
+                <p class="fs-xs lh-900 tw-800 center-s-hero sub-headline-spc" contenteditable="true">Writable is a method for you to view what your font sizes would look like in an actual website. It helps you to visualize your font sizes so that you can make real time adjustments to get the best possible results.</p>
+                <div class="ctas | flex-const center-div-s ctas-spc ctas-hero">
+                    <button class="clr-primary-500-bg clr-primary-900-text fw-bold fs-s border-none br-500 btn" contenteditable="true">Patreon support</button>
+                    <button class="clr-primary-900-bg clr-primary-500-text fw-bold fs-s border-500 br-500 btn" contenteditable="true">Upwork contact</button>
+                </div>
+                <div class="features | flex features-spc">
+                    <div class="free | clr-primary-500-bg clr-primary-900-text width-500 max-width features-item-spc">
+                        <p class="fs-xs lh-900 tw-300 features-p-spc" contenteditable="true">Writable is a free service to help all designers and developers.</p>
+                        <h3 class="fs-m lh-500 tt-upper" contenteditable="true">100% free</h3>
+                    </div>
+                    <div class="open-sourced | clr-accent-300-bg clr-primary-900-text width-500 max-width features-item-spc">
+                        <p class="fs-xs lh-900 tw-400 features-p-spc" contenteditable="true">As of now Writable is not open sourced. But plans are to make it depending on designer’s and developer’s reception.</p>
+                        <h3 class="fs-m lh-500 tt-upper" contenteditable="true">To be open sourced</h3>
+                    </div>
+                </div>
+            </div>
+            <img class="img-300 vs-none-s-img" src="assets/hero img.png" alt="letters scattered on a wooden board.">
+        </div>
+    </section>
+    <section class="how-to-use | how-to-use-spc">
+        <div class="wrapper">
+            <div class="text-change | flex space-between how-to-use-item-spc">
+                <div class="content | content-spc">
+                    <h2 class="fs-ml lh-500 tw-100 center-s title-spc" contenteditable="true">Real time text change</h2>
+                    <article>
+                        <p class="fs-xs lh-900 tw-800 center-s para-spc" contenteditable="true">Every piece of copyright text in this website from start to finish is completely editable. That means that everything you see here is more like a place holder text than actual copyright text. You can even change this text! If you want to see the original text for some information you can easily do so by clicking the pill shaped button on the bottom right of the page.</p>
+                        <p class="fs-xs lh-900 tw-800 center-s" contenteditable="true">Please note that the text is only editable on the landing/home page and that dynamic functionalities don’t apply to sub pages of the website.</p>
+                    </article>
+                </div>
+                <img src="./assets/text content change img.svg" alt="letters including AEPGILMA">
+            </div>
+            <div class="font-size-change | flex space-between flex-sorter-reverse">
+                <div class="content | content-spc">
+                    <h2 class="fs-ml lh-500 center-s title-spc" contenteditable="true">Real time font size change</h2>
+                    <article>
+                        <p class="fs-xs lh-900 tw-800 center-s para-spc" contenteditable="true">The main goal of writable is to be able to adjust font sizes to see what each font size would look like in an actual deployed website environment. You can easily change values by clicking on the circular button in the bottom right of the website. There are four font sizes you can adjust. The sizes belong to the headlines, sub headlines, medium text and body text.</p>
+                        <p class="fs-xs lh-900 tw-800 center-s" contenteditable="true">Please note that the font sizes are only editable on the landing/home page and that dynamic functionalities don’t apply to sub pages of the website.</p>
+                    </article>
+                </div>
+                <img src="./assets/font size change img.svg" alt="letters including AAB in different sizes">
+            </div>
+        </div>
+    </section>
+    <section class="story | clr-primary-500-bg clr-primary-900-text story-spc">
+        <div class="wrapper">
+            <div class="content">
+                <h1 class="fs-l lh-500 story-title-spc" contenteditable="true">How it became to be</h1>
+                <article class="article-indent">
+                    <div class="content">
+                        <p class="fs-xs lh-900 tw-900 para-spc" contenteditable="true">Writable is a service born out of a real problem in the UX design world. When I was a beginner UX designer I used to struggle with typography more than anything. Things would look good and balanced in the design but when I got to development the text would always look large and didn’t fit the website well. </p>
+                        <p class="fs-xs lh-900 tw-900 para-spc" contenteditable="true">Wouldn’t it be great if there was a way to visualize the typography of a website before developing it? Knowing how things will look in real time? Those are the questions that lad to the creating of Writable. So Writable was developed by designers for designers so that you can enjoy an easier development and a better UX.</p>
+                        <p class="fs-xs lh-900 tw-900" contenteditable="true">As Writable is a completely free service you can support me the creator by donating on Patreon. Thanks and enjoy Writable!</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <span class="story-accent | fs-xl opc-100 lh-100 tt-upper tw-100" contenteditable="true">Born out of a problem</span>
+    </section>
+    <footer style="overflow: hidden;" class="footer-spc">
+        <div class="wrapper">
+            <span class="fs-xs lh-900" contenteditable="true">@ 2023. Abenezer Daniel. All rights reserved.</span>
+        </div>
+    </footer>
+</body>
+</html>
